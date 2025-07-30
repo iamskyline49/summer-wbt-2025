@@ -1,0 +1,150 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: white;
+}
+
+.projects {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.projects h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 28px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-item {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+}
+
+.project-item h3 {
+  margin: 0;
+  color: #007bff;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: -2px;
+  text-align: center;
+}
+
+.project-item .duration {
+  color: #888;
+  font-style: italic;
+  margin: 0.5rem 0;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  text-align: center;
+}
+
+.project-item .details {
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  line-height: 1.5;
+  list-style: georgian;
+  text-align: justify;
+  border: dashed 2px;
+  border-width: 3px;
+  padding: 10px;
+}
+
+.project-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.copyright {
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  align-items: right;
+}

@@ -1,0 +1,171 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: white;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px;
+  align-items: flex-start;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-section {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.education-item img {
+  height: 100px;
+  width: 80px;
+  margin-left: 70px;
+  margin-bottom: -55px;
+  vertical-align: middle;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+.education {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.education h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 28px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.education-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+}
+
+.education-item h3 {
+  margin: 0;
+  color: #007bff;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.education-item h4 {
+  margin: 0.5rem 0;
+  color: #555;
+  font-size: 12px;
+  text-align: center;
+}
+
+.education-item .duration {
+  color: #888;
+  font-style: italic;
+  margin: 0.5rem 0;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  text-align: center;
+}
+
+.education-item .details {
+  margin: 0.5rem 0;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px dashed #007bff;
+  padding: 5px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.copyright {
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  align-items: right;
+}
